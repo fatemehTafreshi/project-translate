@@ -1,0 +1,11 @@
+{
+  "Home": "خانه",
+  "About Us": "درباره ما ",
+  "Contact Us": "تماس با ما ",
+  "How to translate your application": "چگونه اپليكيشن خود را ترجمه مي كنيد ",
+  "The JSON translation file": "ترجمه فايل json",
+  "Each language is stored in a separate .json file. Lets create the JSON file for the English translation .": "هر زبان در فايل جي سان  جدا ذخيره مي شود . بياييد فايل جي سان  براي ترجمه انگليسي بسازيم . ",
+  "Switching languages at runtime": "تغيير زبان ها در زمان اجرا ",
+  "To switch language you will first have to add a new JSON file for that language. Lets create a Persian translation for the demo .": "براي تغيير زبان ، اول بايد يك فايل جي سان جديد براي آن زبان اضافه كنيد . بياييد يك ترجمه فارسي براي دمو بسازيم ."
+
+}

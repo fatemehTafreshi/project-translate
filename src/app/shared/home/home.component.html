@@ -1,0 +1,41 @@
+
+<nav class="navbar ">
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link">{{'Home' | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">{{'About Us' | translate}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">{{'Contact Us' | translate}}</a>
+      </li>
+   </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <select  class="language-select" name="langChange" (change)="ontoggle()" (ngModelChange)="languageChange($event)"
+              [(ngModel)]="languageCode" >
+
+        <option class="language-select" *ngFor='let item of languages' [ngValue]='item.languageCode'>
+          {{item.languageName}} </option>
+      </select>
+    </form>
+
+        </div>
+      </nav>
+
+      <div class="mytext" [class.rtl]=rtl  >
+        <p>
+          {{'How to translate your application' | translate}}
+          {{'The JSON translation file' | translate}}
+
+          {{'Each language is stored in a separate .json file. Lets create the JSON file for the English translation .' | translate}}
+
+
+        </p>
+        <p>
+          {{'Switching languages at runtime' | translate}}
+          {{'To switch language you will first have to add a new JSON file for that language. Lets create a Persian translation for the demo .' | translate}}
+        </p>
+      </div>

@@ -1,0 +1,10 @@
+{
+  "Home": "Home",
+  "About Us": "About Us",
+  "Contact Us": "Contact Us",
+  "How to translate your application": "How to translate your application",
+  "The JSON translation file": "The JSON translation file",
+  "Each language is stored in a separate .json file. Lets create the JSON file for the English translation .": "Each language is stored in a separate .json file. Lets create the JSON file for the English translation . ",
+  "Switching languages at runtime": "Switching languages at runtime",
+  "To switch language you will first have to add a new JSON file for that language. Lets create a Persian translation for the demo .": "To switch language you will first have to add a new JSON file for that language. Lets create a Persian translation for the demo ."
+}

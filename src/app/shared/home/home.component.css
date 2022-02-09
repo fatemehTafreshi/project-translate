@@ -1,0 +1,31 @@
+.navbar{
+  background-color: darkslateblue;
+  color: aliceblue;
+  padding: 15px;
+
+}
+
+
+.mytext{
+
+  background-color: lightcoral;
+  text-align: center;
+  color: darkslateblue;
+  padding: 15px;
+  font: 22px IRANSans;
+  font-weight: bold;
+  direction: ltr;
+}
+.mytext:hover{
+  transition: all ease 2s;
+  color: mediumblue;
+
+}
+
+.language-select{
+  background-color: #d5657c;
+  color: #160291;
+}
+.rtl{
+  direction: rtl;
+}
